@@ -13,7 +13,7 @@
 - Composite
 - Decorator
 - Facade
-- Flyweight
+- [Flyweight](./src/com/jihyunum/patterns/structural/flyweight)
 - Proxy
 
 ### Behavioral Patterns
