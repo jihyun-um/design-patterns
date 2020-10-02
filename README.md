@@ -26,5 +26,5 @@
 - Observer
 - State
 - Strategy
-- Template Method
+- [Template Method](./src/com/jihyunum/patterns/behavioral/template_method)
 - Visitor
