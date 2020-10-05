@@ -14,19 +14,18 @@ public class Demo {
 
         EcommerceApp ecommerce;
         String userName = "randomUser";
-        String password = "randomPassword";
 
         System.out.println("Hello " + userName + ", do you want to shop at Amazon or Ebay?");
-
         String ecommerceName = reader.readLine();
 
+        System.out.println("Which item do you want to shop?");
+        String itemId = reader.readLine();
+
         if ("amazon".equalsIgnoreCase(ecommerceName)) {
-            ecommerce = new Amazon(userName, password);
+            ecommerce = new Amazon(userName);
         } else {
-            ecommerce = new Ebay(userName, password);
+            ecommerce = new Ebay(userName);
         }
-        ecommerce.logIn(userName, password);
-        ecommerce.orderItem("randomItem");
-        ecommerce.trackOrder("randomOrder");
+        ecommerce.shop(userName, itemId);
     }
 }

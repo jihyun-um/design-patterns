@@ -2,13 +2,15 @@ package com.jihyunum.patterns.behavioral.template_method.ecommerce;
 
 public abstract class EcommerceApp {
     String userName;
-    String password;
 
     // template method
-    public void logIn(String userName, String password) {
-        System.out.println("Welcome " + userName + ", you're logged in!");
+    public void shop(String userName, String itemId) {
+        System.out.println("Ordering " + itemId + " for " + userName);
+        String orderId = orderItem(itemId);
+        String trackingId = trackOrder(orderId);
+        System.out.println("Your order has been placed!\nYour tracking ID is " + trackingId);
     }
 
-    public abstract void orderItem(String itemId);
-    public abstract void trackOrder(String orderId);
+    public abstract String orderItem(String itemId);
+    public abstract String trackOrder(String orderId);
 }
