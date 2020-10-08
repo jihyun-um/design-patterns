@@ -22,7 +22,7 @@ public class Demo {
                 true,
                 LocalDate.of(2020, 9, 1));
 
-        library.printAllBookStatus();
+        library.printAllBookRentalStatus();
 
         System.out.println("\n--------------------------------------------------\n");
 
@@ -34,6 +34,6 @@ public class Demo {
                 true,
                 LocalDate.now());
 
-        library.printAllBookStatus();
+        library.printAllBookRentalStatus();
     }
 }

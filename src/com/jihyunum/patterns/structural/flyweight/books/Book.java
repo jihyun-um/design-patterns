@@ -1,20 +1,17 @@
 package com.jihyunum.patterns.structural.flyweight.books;
 
-import java.time.LocalDate;
-
 public class Book {
-    private boolean isRented;
-    private LocalDate rentedDate;
-    private BookInfo info;
+    private String title;
+    private String author;
+    private String isbn;
 
-    public Book(boolean isRented, LocalDate rentedDate, BookInfo info) {
-        this.isRented = isRented;
-        this.rentedDate = rentedDate;
-        this.info = info;
+    public Book(String title, String author, String isbn) {
+        this.title = title;
+        this.author = author;
+        this.isbn = isbn;
     }
 
-    public void printBookStatus() {
-        info.printBookInfo();
-        System.out.println("-> " + (isRented ? "Rented on " + rentedDate : "Available"));
+    public void printBookInfo() {
+        System.out.println("<<" + this.title + ">> by " + this.author);
     }
 }

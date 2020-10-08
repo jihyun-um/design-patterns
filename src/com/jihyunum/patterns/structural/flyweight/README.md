@@ -10,8 +10,8 @@
 
 ## Example
 In my example the participants are represented as following:
-- Flyweight: [BookInfo](./books/BookInfo.java)
-- Concrete Flyweight: [Book](./books/Book.java)
+- Flyweight: [Book](./books/Book.java)
+- Concrete Flyweight: [BookRental](./books/BookRental.java)
 - Flyweight Factory: [BookFactory](./books/BookFactory.java)
 - Client: [Library](./library/Library.java)
 
