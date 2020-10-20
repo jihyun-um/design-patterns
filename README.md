@@ -3,7 +3,7 @@
 ### Creational Patterns
 - [Abstract factory](./src/com/jihyunum/patterns/creational/abstract_factory)
 - Builder
-- Factory Method
+- [Factory Method](./src/com/jihyunum/patterns/creational/factory_method)
 - Prototype
 - Singleton
 
