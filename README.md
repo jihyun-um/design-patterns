@@ -11,7 +11,7 @@
 - Adaptor
 - Bridge
 - Composite
-- Decorator
+- [Decorator](./src/com/jihyunum/patterns/structural/decorator)
 - Facade
 - [Flyweight](./src/com/jihyunum/patterns/structural/flyweight)
 - Proxy
