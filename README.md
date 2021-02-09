@@ -8,7 +8,7 @@
 - Singleton
 
 ### Structural Patterns
-- Adaptor
+- _Adaptor_
 - Bridge
 - Composite
 - [Decorator](./src/com/jihyunum/patterns/structural/decorator)
@@ -21,10 +21,10 @@
 - Command
 - Interpreter
 - Iterator
-- Mediator
+- _Mediator_
 - Memento
-- Observer
+- _Observer_
 - State
-- Strategy
+- [Strategy](./src/com/jihyunum/patterns/behavioral/strategy)
 - [Template Method](./src/com/jihyunum/patterns/behavioral/template_method)
 - Visitor
