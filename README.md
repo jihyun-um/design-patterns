@@ -10,7 +10,7 @@
 ### Structural Patterns
 - _Adaptor_
 - Bridge
-- Composite
+- [Composite](./src/com/jihyunum/patterns/structural/composite)
 - [Decorator](./src/com/jihyunum/patterns/structural/decorator)
 - Facade
 - [Flyweight](./src/com/jihyunum/patterns/structural/flyweight)
