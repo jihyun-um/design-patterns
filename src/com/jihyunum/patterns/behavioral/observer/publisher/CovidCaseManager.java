@@ -7,12 +7,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-// subscriber 관리
-// 상태 변화 시 subscribers에게 update
-public class CoronaCasePublisher {
+public class CovidCaseManager {
     Map<String, List<Subscriber>> subscriptions = new HashMap<>();
 
-    public CoronaCasePublisher(String[] countries) {
+    public CovidCaseManager(String[] countries) {
         for (String country : countries) {
             this.subscriptions.put(country, new ArrayList<>());
         }
