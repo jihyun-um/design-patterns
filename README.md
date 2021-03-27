@@ -5,11 +5,11 @@
 - Builder
 - [Factory Method](./src/com/jihyunum/patterns/creational/factory_method)
 - Prototype
-- Singleton
+- [Singleton](./src/com/jihyunum/patterns/creational/singleton)
 
 ### Structural Patterns
-- Adaptor
-- Bridge
+- _Adaptor_
+- _Bridge_
 - [Composite](./src/com/jihyunum/patterns/structural/composite)
 - [Decorator](./src/com/jihyunum/patterns/structural/decorator)
 - Facade
@@ -17,8 +17,8 @@
 - Proxy
 
 ### Behavioral Patterns
-- Chain of Responsibility
-- Command
+- _Chain of Responsibility_
+- _Command_
 - Interpreter
 - Iterator
 - _Mediator_
