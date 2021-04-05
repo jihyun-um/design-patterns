@@ -1,5 +1,4 @@
-## Flyweight
-
+# Flyweight
 - Intent: Use sharing to support large numbers of fine-grained objects efficiently.
 - A flyweight is a shared object th at can be used in multiple contexts simultaneously.
 - Intrinsic state is stored in the flyweight; it consists of information that 's independent of the flyweight's context, thereby making it sharable.

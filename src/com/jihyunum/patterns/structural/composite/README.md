@@ -1,4 +1,4 @@
-## Composite
+# Composite
 - Intent: Compose objects into _tree structures_ to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 - Use Strategy pattern when:
     - you want to represent part-whole hierarchies of objects.

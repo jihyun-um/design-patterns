@@ -1,4 +1,4 @@
-## Factory Method
+# Factory Method
 - Intent: Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 - Also known as "Virtual Constructor".
 - Use the Factory Method pattern when:
