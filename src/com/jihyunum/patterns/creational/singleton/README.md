@@ -1,4 +1,4 @@
-## Singleton
+# Singleton
 - Intent: Ensure a class only has one instance, and provide a global point of access to it.
 - Use Singleton pattern when:
     - there must be exactly one instance of a class, and it must be accessible to clients from a well-known access point.
@@ -6,6 +6,10 @@
 
 ## General Structure
 ![](singleton_structure.png)
+
+## Example
+In my example the participants are represented as following:
+- Singleton: [NaiveSingleton](./non_thread_safe/NaiveSingleton.java), [ThreadSafeSingleton](./thread_safe/ThreadSafeSingleton.java)
 
 ## Pros/Cons
 Pros ❤️
