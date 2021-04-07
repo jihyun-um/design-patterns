@@ -4,7 +4,7 @@
 - [Abstract factory](./src/com/jihyunum/patterns/creational/abstract_factory)
 - Builder
 - [Factory Method](./src/com/jihyunum/patterns/creational/factory_method)
-- Prototype
+- [Prototype](./src/com/jihyunum/patterns/creational/prototype)
 - [Singleton](./src/com/jihyunum/patterns/creational/singleton)
 
 ### Structural Patterns
