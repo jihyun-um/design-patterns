@@ -2,7 +2,7 @@
 
 ### Creational Patterns
 - [Abstract factory](./src/com/jihyunum/patterns/creational/abstract_factory)
-- Builder
+- [Builder](./src/com/jihyunum/patterns/creational/builder)
 - [Factory Method](./src/com/jihyunum/patterns/creational/factory_method)
 - [Prototype](./src/com/jihyunum/patterns/creational/prototype)
 - [Singleton](./src/com/jihyunum/patterns/creational/singleton)
@@ -20,7 +20,7 @@
 - _Chain of Responsibility_
 - _Command_
 - Interpreter
-- Iterator
+- _Iterator_
 - _Mediator_
 - Memento
 - [Observer](./src/com/jihyunum/patterns/behavioral/observer)
