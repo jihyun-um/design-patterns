@@ -24,7 +24,7 @@
 - _Mediator_
 - Memento
 - [Observer](./src/com/jihyunum/patterns/behavioral/observer)
-- State
+- [State](./src/com/jihyunum/patterns/behavioral/state)
 - [Strategy](./src/com/jihyunum/patterns/behavioral/strategy)
 - [Template Method](./src/com/jihyunum/patterns/behavioral/template_method)
 - Visitor
