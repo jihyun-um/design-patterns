@@ -14,7 +14,7 @@
 - [Decorator](./src/com/jihyunum/patterns/structural/decorator)
 - Facade
 - [Flyweight](./src/com/jihyunum/patterns/structural/flyweight)
-- Proxy
+- [Proxy](./src/com/jihyunum/patterns/structural/proxy)
 
 ### Behavioral Patterns
 - _Chain of Responsibility_
